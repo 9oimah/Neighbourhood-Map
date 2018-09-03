@@ -4,15 +4,15 @@ body {
 }
 
 nav {
-	color: #00a5d3;
-	text-align: center;
+    color: #00a5d3;
+    text-align: center;
     display: flex;
     padding: 0 3rem;
     justify-content: space-between;
 }
 
 .side-heading {
-	color: #fff;
+    color: #fff;
     text-align: center;
     display: flex;
     padding: 0 2rem;
@@ -25,20 +25,20 @@ nav {
 }
 
 input {
-	background-color: rgba(140, 180, 120, 0.192);
+    background-color: rgba(140, 180, 120, 0.192);
     color: #fff;
     width: 90%;
-	height: 2rem;
+    height: 2rem;
     border-radius: 5px;
     font-size: 1.3rem;
 }
 
 .list {
-	background-color: #00a5d3;
-	color: #fff;
+    background-color: #00a5d3;
+    color: #fff;
     width: 0;
-	height: 100%;
-	top: 0;
+    height: 100%;
+    top: 0;
     left: 0;
     position: fixed;
     z-index: 1;
@@ -51,8 +51,8 @@ ul {
 
 li {
     padding: 1.2rem 0;
-	font-size: 17px;
-	font-weight: bold;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .map {
@@ -73,7 +73,7 @@ li {
 }
 
 @media (min-width: 1000px) {
-	.container {
+    .container {
         display: flex;
     }
 	
@@ -81,7 +81,7 @@ li {
         display: block;
     }
 	
-	.close,
+    .close,
     .ham {
         display: none;
     }
@@ -96,7 +96,7 @@ li {
         padding-left: 3rem
     }
 	
-	.map {
+    .map {
         width: 75%; 
         height: 100vh;
     }
