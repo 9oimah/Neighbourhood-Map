@@ -10,24 +10,28 @@
 <body>
     <section>
         <nav>
-			<img src="img/ham.svg" data-bind="click: showList" alt="Menu icon" class="ham">
+	    <img src="img/ham.svg" data-bind="click: showList" alt="Menu icon" class="ham">
             <h1>Neighborhood Map - London City</h1>
         </nav>
 		
         <div class="container">
             <div class="list">
                 <div class="side-heading">
-					<img src="img/close.svg" data-bind="click: closeList" alt="Close icon" class="close">
+		    <img src="img/close.svg" data-bind="click: closeList" alt="Close icon" class="close">
                     <h1>Popular Locations</h1>
                 </div>
+		    
                 <div class="search">
                     <input type="text" data-bind="textInput: query, valueUpdate: 'afterkeydown'" placeholder="Filter locations...">
                 </div>
-				<hr>
+		    
+		<hr>
+		    
                 <ul data-bind="foreach: filteredLocations">
                     <li id="list-item" data-bind="text: title, click: listClick"></li>
                 </ul>
             </div>
+		
             <div id="map" class="map"></div>
         </div>
     </section>
