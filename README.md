@@ -1,5 +1,5 @@
 # Neighbourhood Map
-This project is a single-page application featuring the map of a neighborhood in London, with a few selected locations. It is powered by the Google Maps API. The project includes a search function to easily filter these locations, and additional details about the locations gotten from Foursquare. You can view it live [here.](https://noimat.design/Neighbourhood-Map/)
+This project is a single-page application featuring the map of a neighborhood in London, with a few selected locations. It is powered by the Google Maps API. The project includes a search function to easily filter these locations, and additional details about the locations gotten from Foursquare. You can view it live [here.](https://naeema.design/Neighbourhood-Map/)
 
 ## Technologies Used
 
